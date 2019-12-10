@@ -2,6 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//IMPORT COMPONENTS 
+import HellWorldArrowFunc from './HelloWorldArrowFunc';
+import HelloWorldFunction from './HelloWorldFunction';
+import Album from './Album';
+import Welcome from './Welcome';
+import TodoComponent from './HelloWorld';
+import UserApp from './UserApp';
+import MyTable from './MyTable';
+import NameForm from './NameForm';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +28,17 @@ function App() {
         >
           Learn React
         </a>
+        {console.log("ENV VAR " + process.env.NODE_ENV)
+        }
+
+        <HellWorldArrowFunc></HellWorldArrowFunc>
+        <HelloWorldFunction></HelloWorldFunction>
+        <Album></Album>
+        <Welcome name="OLE BRO"></Welcome>
+        {/* <TodoComponent></TodoComponent> */}
+        <UserApp></UserApp>
+        <MyTable></MyTable>
+        <NameForm></NameForm>
       </header>
     </div>
   );

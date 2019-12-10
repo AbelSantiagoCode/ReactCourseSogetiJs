@@ -11,6 +11,8 @@ import TodoComponent from './HelloWorld';
 import UserApp from './UserApp';
 import MyTable from './MyTable';
 import NameForm from './NameForm';
+import BasicForm from './BasicForm';
+import ContactForm from './ContactForm';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <UserApp></UserApp>
         <MyTable></MyTable>
         <NameForm></NameForm>
+        <BasicForm></BasicForm>
+        <ContactForm></ContactForm>
       </header>
     </div>
   );

@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import TodoComponent from './HelloWorld';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<TodoComponent/>, document.getElementById('todo'));

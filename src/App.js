@@ -42,7 +42,7 @@ function App() {
         <MyTable></MyTable>
         <NameForm></NameForm>
         <BasicForm></BasicForm>
-        <ContactForm></ContactForm>
+        <ContactForm>npm i yup</ContactForm>
       </header>
     </div>
   );

@@ -7,7 +7,6 @@ import HellWorldArrowFunc from './HelloWorldArrowFunc';
 import HelloWorldFunction from './HelloWorldFunction';
 import Album from './Album';
 import Welcome from './Welcome';
-import TodoComponent from './HelloWorld';
 import UserApp from './UserApp';
 import MyTable from './MyTable';
 import NameForm from './NameForm';
@@ -37,12 +36,11 @@ function App() {
         <HelloWorldFunction></HelloWorldFunction>
         <Album></Album>
         <Welcome name="OLE BRO"></Welcome>
-        {/* <TodoComponent></TodoComponent> */}
         <UserApp></UserApp>
         <MyTable></MyTable>
         <NameForm></NameForm>
         <BasicForm></BasicForm>
-        <ContactForm>npm i yup</ContactForm>
+        <ContactForm></ContactForm>
       </header>
     </div>
   );
